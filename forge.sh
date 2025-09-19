@@ -297,7 +297,7 @@ info "You can do this by running 'wsl --terminate <YourDistroName>' in PowerShel
 info ""
 success "IMPORTANT: After restart, paste this command to complete dotfiles setup:"
 echo ""
-echo -e "\e[1;36mcurl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.tmux.conf -o ~/.tmux.conf\e[0m"
+echo -e "\e[1;36mcurl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.tmux.conf -o ~/.tmux.conf && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && echo [ESSENTIAL] RESTART YOUR DESKTOP AND CLICK SHIFT+s+I\e[0m"
 echo ""
 info "When you log back in, you'll be '$USERNAME' in your new environment."
 info "The first time you run 'nvim', NvShade will finalize its installation."
