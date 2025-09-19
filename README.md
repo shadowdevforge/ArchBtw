@@ -103,9 +103,9 @@ Choose your path and run the commands in your terminal.
 
 4.  **Complete dotfiles setup** - After restart, paste this command:
     ```bash
-    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.tmux.conf -o ~/.tmux.conf
-
+    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.tmux.conf -o ~/.tmux.conf && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
     ```
+5. **[ESSENTIAL]** Restart your computer and click Shift+s+I on a new Arch session.
 
 </details>
 
