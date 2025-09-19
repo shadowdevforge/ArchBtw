@@ -112,7 +112,7 @@ pacman -Syu --noconfirm
 
 info "Installing essential packages, development tools, and dependencies..."
 # Added nodejs and npm for NvShade dependencies
-if ! pacman -S --noconfirm base-devel sudo zsh git curl fastfetch neovim tmux btop ripgrep unzip nodejs npm; then
+if ! pacman -S --noconfirm base-devel sudo zsh git curl fastfetch neovim tmux btop bat ripgrep unzip nodejs npm; then
     warning "Some packages failed to install, continuing..."
 fi
 
