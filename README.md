@@ -88,7 +88,7 @@ Choose your path and run the commands in your terminal.
 
 4.  **Complete dotfiles setup** - After restart, paste this command:
     ```bash
-    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.tmux.conf -o ~/.tmux.conf && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/fastfetch.jsonc -o ~/.config/fastfetch/config.jsonc && mv ~/.config/nvim ~/.config/nvim.bak && git clone https://github.com/shadowdevforge/NvShade.git ~/.config/nvim && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tp
+    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.tmux.conf -o ~/.tmux.conf && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/fastfetch.jsonc -o ~/.config/fastfetch/config.jsonc && mv ~/.config/nvim ~/.config/nvim.bak && git clone https://github.com/shadowdevforge/NvShade.git ~/.config/nvim && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
     ```
 5. **[ESSENTIAL]** Restart your computer and click Shift+s+I on a new Arch session.
 
@@ -143,7 +143,7 @@ Instead of bundling potentially outdated configurations, ArchBTW pulls your dotf
 
 ```bash
 # This command is provided automatically after installation 
-    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.tmux.conf -o ~/.tmux.conf && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/fastfetch.jsonc -o ~/.config/fastfetch/config.jsonc && mv ~/.config/nvim ~/.config/nvim.bak && git clone https://github.com/shadowdevforge/NvShade.git ~/.config/nvim && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tp
+    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.tmux.conf -o ~/.tmux.conf && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/fastfetch.jsonc -o ~/.config/fastfetch/config.jsonc && mv ~/.config/nvim ~/.config/nvim.bak && git clone https://github.com/shadowdevforge/NvShade.git ~/.config/nvim && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
 ### Manual Installation
