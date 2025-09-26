@@ -1,16 +1,12 @@
 <div align="center">
+
+## The Final Look
+     
 <pre>
-     _____ ___________________   ___ __________________________      __ 
-  /  _  \\______   \_   ___ \ /   |   \______   \__    ___/  \    /  \
- /  /_\  \|       _/    \  \//    ~    \    |  _/ |    |  \   \/\/   /
-/    |    \    |   \     \___\    Y    /    |   \ |    |   \        / 
-\____|__  /____|_  /\______  /\___|_  /|______  / |____|    \__/\  /  
-        \/       \/        \/       \/        \/                 \/   
-  
+<img width="1600" height="900" alt="Screenshot 2025-09-26 223032" src="https://github.com/user-attachments/assets/c71b3c86-733d-48ef-aab9-68b8f6fdca6f" />
 </pre>
-
+     
 **A fiercely forged Arch Linux development environment for the modern developer.**
-
 
 </div>
 
@@ -22,17 +18,6 @@
 It is built on a foundation of modern tools and a deep respect for the user's ability to customize their own environment.
 
 </div>
-
----
-
-### The Final Look
-<div align="center">
-<pre>
-<img width="1600" height="900" alt="Screenshot 2025-09-19 160815" src="https://github.com/user-attachments/assets/04aa41fc-d809-4ae8-be4c-ed194a6b6b39" />
-</pre>
-
-</div>
-
 
 ---
 
@@ -81,7 +66,7 @@ Choose your path and run the commands in your terminal.
 
 4.  **Complete dotfiles setup** - After restart, paste this command:
     ```bash
-    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.tmux.conf -o ~/.tmux.conf && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.tmux.conf -o ~/.tmux.conf && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/fastfetch.jsonc -o ~/.config/fastfetch/config.jsonc && mv ~/.config/nvim ~/.config/nvim.bak && git clone https://github.com/shadowdevforge/NvShade.git ~/.config/nvim && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
     ```
 5. **[ESSENTIAL]** Restart your computer and click Shift+s+I on a new Arch session.
 
@@ -103,7 +88,7 @@ Choose your path and run the commands in your terminal.
 
 4.  **Complete dotfiles setup** - After restart, paste this command:
     ```bash
-    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.tmux.conf -o ~/.tmux.conf && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.tmux.conf -o ~/.tmux.conf && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/fastfetch.jsonc -o ~/.config/fastfetch/config.jsonc && mv ~/.config/nvim ~/.config/nvim.bak && git clone https://github.com/shadowdevforge/NvShade.git ~/.config/nvim && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tp
     ```
 5. **[ESSENTIAL]** Restart your computer and click Shift+s+I on a new Arch session.
 
@@ -158,8 +143,7 @@ Instead of bundling potentially outdated configurations, ArchBTW pulls your dotf
 
 ```bash
 # This command is provided automatically after installation 
-curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/archbtw/main/dotfiles/.tmux.conf -o ~/.tmux.conf && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-    
+    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.tmux.conf -o ~/.tmux.conf && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/fastfetch.jsonc -o ~/.config/fastfetch/config.jsonc && mv ~/.config/nvim ~/.config/nvim.bak && git clone https://github.com/shadowdevforge/NvShade.git ~/.config/nvim && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tp
 ```
 
 ### Manual Installation
